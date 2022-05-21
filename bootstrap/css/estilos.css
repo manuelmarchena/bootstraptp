@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.tarjetas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit: cover;
+    align-items: left;
+    flex-wrap: wrap;
+    border: solid 1px rgba(128, 128, 128, 0.582);
+    border-top: none;
+}
+
+.tarjetas__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 33.33%;
+    object-fit: cover;
+    justify-content: center;
+    border: solid 1px rgba(128, 128, 128, 0.582);
+    border-radius: 1%;
+}
+
+.tarjetas__div__2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    object-fit: fill;
+    justify-content: center;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.card__div__text__2 p,
+h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card__div__text__gris {
+    color: grey;
+    font-size: small;
+}
+
+.formulario {
+    margin: 1%;
+    margin-left: 0%;
+}
